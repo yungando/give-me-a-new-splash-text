@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "yungando.givemeanewsplashtext.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "TitleScreenMixin"
+  ]
+}

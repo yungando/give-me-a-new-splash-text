@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "give-me-a-new-splash-text",
+	"version": "${version}",
+	"name": "give-me-a-new-splash-text",
+	"description": "Click anywhere on the title screen to get new splash text!",
+	"authors": [
+		"justletterv",
+		"yungando"
+	],
+	"contact": {
+		"homepage": "https://github.com/yungando/give-me-a-new-splash-text",
+		"sources": "https://github.com/yungando/give-me-a-new-splash-text",
+		"issues": "https://github.com/yungando/give-me-a-new-splash-text/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/give-me-a-new-splash-text/icon.png",
+	"environment": "client",
+	"mixins": [
+		"give-me-a-new-splash-text.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25"
+	}
+}
