@@ -23,6 +23,6 @@ public abstract class TitleScreenMixin extends Screen {
 
 	@Inject(method = "mouseClicked", at = @At("RETURN"))
 	private void changeSplashText(MouseButtonEvent event, boolean doubleClick, CallbackInfoReturnable<Boolean> cir) {
-		this.splash = this.minecraft.getSplashManager().getSplash();
+		this.splash = this.minecraft.gui.splashManager().getSplash();
 	}
 }
